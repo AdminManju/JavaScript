@@ -1,0 +1,58 @@
+1.Deploy a three-tier web application:
+Steps:
+Set up a VPC, subnets, and routing tables
+Launch an EC2 instance in each subnet and install the necessary packages
+Create a RDS database instance and configure the necessary security groups
+Deploy a load balancer to distribute incoming traffic to the EC2 instances
+Create an S3 bucket for file storage and configure the necessary permissions
+Deploy the web application on the EC2 instances and configure the necessary environment variables
+
+
+2.Design a disaster recovery solution:
+Steps:
+Evaluate the criticality of your application and the required recovery time objective
+Determine the necessary infrastructure and data replication method (e.g. cross-region, cross-account)
+Set up Amazon Route 53 to direct traffic to the appropriate region in case of a disaster
+Use Amazon S3 and Amazon EBS snapshots to store critical data and system images
+Use Amazon EC2 Auto Scaling and AWS CloudFormation to automatically deploy the necessary resources in case of a disaster
+
+
+3.Create a serverless architecture:
+Steps:
+Evaluate the appropriate use cases for serverless technologies such as AWS Lambda and Amazon API Gateway
+Design the necessary data storage solutions (e.g. Amazon S3, Amazon DynamoDB)
+Implement the necessary triggers for AWS Lambda functions (e.g. S3 bucket uploads, API Gateway requests)
+Deploy the serverless functions and configure the necessary environment variables and permissions
+Test and refine the implementation as necessary.
+Note: These are general steps for each project and may need to be adjusted based on specific requirements.
+
+
+
+
+4.Create a hybrid cloud architecture:
+Steps:
+Assess the requirements for your workloads and determine which are suitable for the public cloud and which for the private cloud
+Set up a VPN or Direct Connect connection between your on-premises network and the AWS cloud
+Choose the appropriate services for data transfer, such as AWS Storage Gateway or AWS Direct Connect
+Set up Amazon Elastic Compute Cloud (EC2) instances, Amazon S3 buckets, and Amazon RDS databases for your public cloud workloads
+Implement security measures such as VPCs, security groups, and network ACLs for both the public and private cloud components
+
+
+
+5.Migrate a legacy application to AWS:
+Steps:
+Assess the current infrastructure and application architecture
+Plan the migration strategy, such as lift and shift or re-architecting the application
+Choose the appropriate AWS services, such as EC2, RDS, and S3, to host the migrated application
+Set up the necessary network infrastructure, such as VPCs, subnets, and security groups
+Transfer the data and deploy the application components in AWS
+Test the migrated application and make any necessary adjustments
+
+
+
+6.Implement a security-focused architecture:
+Steps:
+Assess the current security posture and identify potential threats
+Plan and implement the necessary security controls, such as network segmentation and access control
+Set up Amazon Virtual Private Cloud (VPC) with subnets and security groups
+Enable encryption for data at rest and in transit, such as with Amazon S3 and Amazon EBS encryption
